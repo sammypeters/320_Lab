@@ -1,0 +1,3 @@
+library("tidyverse")
+ggplot(data = mpg, aes(x = cyl, y = hwy)) +
+    geom_point()
